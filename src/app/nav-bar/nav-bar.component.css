@@ -1,0 +1,19 @@
+nav{
+   justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid black;
+}
+
+button{
+    margin-left: 1rem;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid black;
+    padding: .3rem;
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(91, 156, 248);
+}

@@ -1,0 +1,9 @@
+<div class="user-container">
+    <div class="user-title-container">
+        <h3>user-container.component</h3>
+    </div>
+    <div class="user-list-detail-container">
+        <app-user-list (showUserDetail)="showDetail($event)"></app-user-list>
+        <app-user-detail *ngIf="showUserDetail" (closeDetailComp)="closeDetail($event)"></app-user-detail> 
+    </div>
+</div>

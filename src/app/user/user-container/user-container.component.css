@@ -1,0 +1,33 @@
+
+.user-container{
+     width: 100%;
+    height: 100%;
+    background-color: #DAE8FC;
+    border: 1px solid rgb(77, 77, 232);
+}
+
+
+.user-title-container>h3 {
+    text-align: center;
+}
+
+.user-list-detail-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    height: calc(100% - 90px);
+}
+
+app-user-list {
+    flex: 0 0 50%;
+    background-color: #D5E8D4;
+    border: 1px solid #63a55f;
+
+}
+
+
+app-user-detail {
+    flex: 0 0 40%;
+    background-color: #FFF2CC;
+    border: 1px solid #c9a742;
+}

@@ -1,0 +1,6 @@
+<h3>user-list.component</h3>
+
+<ul>
+    <app-user-single *ngFor="let user of users" (userDetail)="showDetail($event)"></app-user-single>
+
+</ul>

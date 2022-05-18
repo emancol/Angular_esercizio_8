@@ -1,0 +1,10 @@
+.container-order>h3 {
+    text-align: center;
+}
+
+.container-order{
+       width: 100%;
+    height: 100%;
+    background-color: #F8CECC;
+    border: 1px solid #eb665f;
+}

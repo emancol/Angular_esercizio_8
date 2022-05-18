@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.vertical-center{
+    align-items: center;
+}
